@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    background-color: blue;
+}
+
+ul{
+    display: flex;
+    
+}
+
+li{
+    margin: 0px 10px;
+    list-style: none;
+  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.inicio{
+    text-align: center;
+    margin: 60px 0px;
+
+}
+
+.btn{
+    width: 150px;
+    padding: 10px;
+    border-radius: 14px;
+    border: none;
+    margin: 13px 0px;
+
+}
+.btn:hover{
+    background-color: blue;
+}
+
+.sobre{
+    display: flex;
+    margin: auto;
+    padding: 100px;
+    width: 60%;
+}
+.ctt{
+    color: black;
+    display: block;
+}
+img{
+    width: 300px;
+    border-radius: 15px;
+}
+
+.div-img{
+    margin-right: 20px;
+}
+.formac{
+    display: flex;
+    justify-content: center;
+}
+.formacao{
+    display: flex;
+    /*justify-content: center;8*/
+    width: 60%;
+    align-items: center;
+}
+
+.container{
+    margin: 10px;
+    width: 30%;
+}
+aside{
+    margin-right: 10px;
+}
+
+.exp{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.titulo-exp{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.conteudo-exp{
+    padding: 25px;
+}
+.sessao-projetos{
+    padding: 10px;
+   
+}
+
+.projetos{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.text-pro{
+    margin-left: 10%;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+
+.card{
+    padding: 20px;
+    display: flex;
+
+}
+.img-projetos{
+    width: 200px;
+
+}
+
+.btn-pro{
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0px;
+    background-color: #0000ff91;
+}
+
+.conteudo{
+    padding-left: 10px;
+}
+
+.hab{
+    width: 80%;
+    margin: auto;
+    padding: 10px 30px;
+}
+footer{
+    text-align: center;
+    margin-top: 300px;
+    background-color: blue;
+    padding: 20px;
+}
