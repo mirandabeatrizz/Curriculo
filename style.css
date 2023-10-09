@@ -1,14 +1,21 @@
+
+
 *{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-color: #f4f0ea ;
 }
 
 nav{
     display: flex;
     justify-content: end;
     padding: 20px;
-    background-color: blue;
+    background-color: #6E9887;
 }
 
 ul{
@@ -27,6 +34,13 @@ a{
     color: white;
 }
 
+.nav:hover{
+    background-color: #F283B6;
+    padding: 20px;
+
+}
+
+
 .inicio{
     text-align: center;
     margin: 60px 0px;
@@ -39,10 +53,11 @@ a{
     border-radius: 14px;
     border: none;
     margin: 13px 0px;
+    background-color: #6E9887;
 
 }
 .btn:hover{
-    background-color: blue;
+    background-color: #F283B6;
 }
 
 .sobre{
@@ -80,46 +95,62 @@ img{
 }
 aside{
     margin-right: 10px;
+    margin-left: 6%;
 }
 
 .exp{
     display: flex;
-    width: 80%;
-    margin: auto;
+    /*justify-content: center;*/
 }
 .titulo-exp{
     font-size: 30px;
     padding-left: 10px;
 }
-
+.container-exp{
+    margin: 0px 10px;
+    width: 40%;
+}
 .conteudo-exp{
     padding: 25px;
 }
 .sessao-projetos{
     padding: 10px;
+    margin: 80px 0px;
    
 }
 
 .projetos{
     display: flex;
-    width: 80%;
     margin: auto;
 }
 .text-pro{
-    margin-left: 10%;
+    margin-left: 6%;
     font-size: 30px;
     font-weight: 600;
-
+}
+.lado1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.lado2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .card{
     padding: 20px;
     display: flex;
+    width: 75%;
 
 }
 .img-projetos{
     width: 200px;
+    object-fit: contain;
 
 }
 
@@ -129,21 +160,59 @@ aside{
     border-radius: 10px;
     border: none;
     margin: 10px 0px;
-    background-color: #0000ff91;
+    background-color: #6E9887;
+}
+.btn-pro:hover{
+    background-color: #F283B6;
 }
 
 .conteudo{
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .hab{
-    width: 80%;
+   /* width: 80%;
     margin: auto;
     padding: 10px 30px;
+    display: flex;*/
+    margin-bottom: 80px;
+}
+.img-hab{
+    width: 100px;
+}
+.img-hab:hover{
+    box-shadow: 0px 0px 7px 2px #000000b3;
+}
+
+.hab1, .hab2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-hab{
+    width: 12%;
+}
+.contato{
+    display: flex;
+    justify-content: center;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
 }
 footer{
     text-align: center;
     margin-top: 300px;
-    background-color: blue;
+    background-color: #6E9887;
     padding: 20px;
 }

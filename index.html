@@ -11,11 +11,11 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#experiencia">Formação</a></li>
-            <li><a href="#experiencia">Experiência</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#sobre" class="nav">Sobre</a></li>
+            <li><a href="#experiencia" class="nav">Formação</a></li>
+            <li><a href="#experiencia" class="nav">Experiência</a></li>
+            <li><a href="#projetos" class="nav">Projetos</a></li>
+            <li><a href="#habilidades" class="nav">Habilidades</a></li>
         </ul>
     </nav>
 
@@ -68,7 +68,7 @@
         <aside>
             <h1 class="titulo-exp">Formação:</h1>
         </aside>
-            <div>
+            <div class="container-exp">
                 <div class="conteudo-exp">
                     <h4>Análise e Desenvolvimento de Sistemas</h4>
                     <p>UCEFF - Chapecó</p>
@@ -87,12 +87,11 @@
                     <p>IFSC - Chapecó</p>
                     <p> Janeiro de 2019 -  Dezembro de 2022</p>
                 </div>    
-        
-        </div>
+            </div>
         <aside>
             <h1 class="titulo-exp">Experiência:</h1>
         </aside>
-            <div>
+            <div class="container-exp">
                 <div class="conteudo-exp">
                         <h4>Zyoncore Sistemas</h4>
                         <p>Ocupação: Programador de Sistemas Jr</p>
@@ -110,65 +109,131 @@
                     <p>Ocupação: Estágio</p>
                     <p>Março de 2021 até Dezembro de 2022</p>
                 </div>    
-        
         </div>
     </section>
 
     <section class="sessao-projetos" id="projetos">
-    
         <h1 class="text-pro">Projetos:</h1>
     <div class="projetos">
-        <div>
-        <div class="card">
-           
-            <img src="imgs/eu.jpg" alt=""class="img-projetos">
-            <div class="conteudo">
-            <h1>Esquadrão 4 Patas</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit itaque minus sit eligendi ipsa nostrum, accusamus qui ut quo assumenda ab ex rem alias vel expedita eaque! Quos, itaque.</p>
-            <a href="https://github.com/marcoduz/esquadrao4patas"><button class="btn-pro" >Link do Projeto</button></a>
-        </div>
-        </div>
+        <div class="lado1">
+            <div class="card">
+            
+                <img src="imgs/eu.jpg" alt=""class="img-projetos">
+                <div class="conteudo">
+                    <h1>Esquadrão 4 Patas</h1>
+                    <p>Site institucional para a Organização sem fins lucrativos Esquadrão 4 Patas que atua em Chapecó auxiliando cuidando e tratando animais principalmente na Arena Condá. Projeto em desenvolvimento sendo realizado em grupo utilizando linguagens como HTML, CSS e Javascript</p>
+                    <a href="https://github.com/marcoduz/esquadrao4patas"><button class="btn-pro" >Link do Projeto</button></a>
+                </div>
+            </div>
 
         <div class="card">
             <img src="imgs/eu.jpg" alt="" class="img-projetos">
             <div class="conteudo">
-            <h1>Sistema Adoção</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea animi ipsam nam repellat. Tempore asperiores ipsum veritatis laudantium sapiente aut magni tempora unde id amet repellat sit, sunt doloribus excepturi.</p>
-            <a href="https://github.com/mirandabeatrizz/ProjetoAdocao"><button class="btn-pro">Link do Projeto</button>
-            </a>
-        </div>
+                <h1>Sistema Adoção</h1>
+                <p>Sistema web para uma organização ficticia de animais que quer ter um controle e divulgar os animais disponiveis para adoção através de um site. Projeto em desenvolvimento sendo realizado em dupla, utilizando linguagens como JAVA com o Framework Spring Boot, HTML, CSS, Javascript e banco de dados com o Postgres.</p>
+                <a href="https://github.com/mirandabeatrizz/ProjetoAdocao"><button class="btn-pro">Link do Projeto</button>
+                </a>
+            </div>
         </div>
     </div>
-        <div>
+
+    <div class="lado2">
         <div class="card">
             <img src="imgs/eu.jpg" alt=""class="img-projetos">
             <div class="conteudo">
-            <h1>Biblioteca Comunitária</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reiciendis pariatur maxime assumenda doloremque atque! Expedita eius vitae quae a repudiandae quo, cum laborum praesentium, vero, aliquid ex tempora adipisci.</p>
-            <a href="https://github.com/mirandabeatrizz/ProjetoBiblioteca"><button class="btn-pro">Link do Projeto</button></a>
+                <h1>Biblioteca Comunitária</h1>
+                <p>Sistema para que usuários pudessem disponibilizar seus livros para trocar ou emprestar com outros usuários criando assim uma comunidade de leitores. Projeto desenvolvido em grupo utilizando linguagens como JAVA e banco de dados com o Postgres</p>
+                <a href="https://github.com/mirandabeatrizz/ProjetoBiblioteca"><button class="btn-pro">Link do Projeto</button></a>
             </div>
         </div>
 
         <div class="card">
-           
             <img src="imgs/eu.jpg" alt="" class="img-projetos">
             <div  class="conteudo">
-            <h1>Aldeia 21</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis illum adipisci dolorem vero quo nesciunt consequatur quasi. Expedita voluptates quos repellendus eos officiis nulla consectetur, quasi dolorum perferendis doloribus omnis.</p>
-            <a href="https://aldeia21.com" target="_blank"><button class="btn-pro">Link do Projeto</button></a>
+                <h1>Aldeia 21</h1>
+                <p>Site institucional feito para a Associação de Pessoas com Trissomia 21, Aldeia 21 que atua principalmente em Chapecó. Projeto desenvolvido em grupo utilizando linguagens como HTML, CSS, Wordpress e banco de dados com o Xampp</p>
+                <a href="https://aldeia21.com" target="_blank"><button class="btn-pro">Link do Projeto</button></a>
             </div>
         </div>
-    </div>
 
     </div>
+</div>
+
     </section>
 
     <section class="hab">
-        <h1>HABILIDADES</h1>
+        <h1 class="text-pro">HABILIDADES</h1>
+        <div>
+            <section class="hab1">
+                <div class="card-hab">
+                    <img src="imgs/eu.jpg" alt="" class="img-hab">
+                    <li>HTML</li>
+                </div>
+                <div class="card-hab">
+                    <img src="imgs/eu.jpg" alt="" class="img-hab">
+                    <li>CSS</li>
+                </div>
+                <div class="card-hab">
+                    <img src="imgs/eu.jpg" alt="" class="img-hab">
+                    <li>Javascript</li>
+                </div>
+                <div class="card-hab">
+                    <img src="imgs/eu.jpg" alt="" class="img-hab">
+                    <li>Bootstrap</li>
+                </div>
+                <div class="card-hab">
+                    <img src="imgs/eu.jpg" alt="" class="img-hab">
+                    <li>MySql</li>
+                </div>
+            </section>
+            <section class="hab2">
+            <div class="card-hab">
+                <img src="imgs/eu.jpg" alt="" class="img-hab">
+                <li>Wordpress</li>
+            </div>
+            <div class="card-hab">
+                <img src="imgs/eu.jpg" alt="" class="img-hab">
+                <li>PHP</li>
+            </div>
+            <div class="card-hab">
+                <img src="imgs/eu.jpg" alt="" class="img-hab">
+                <li>Java</li>
+            </div>
+            <div class="card-hab">
+                <img src="imgs/eu.jpg" alt="" class="img-hab">
+                <li>Spring</li>
+            </div>
+            <div class="card-hab">
+                <img src="imgs/eu.jpg" alt="" class="img-hab">
+                <li>C</li>
+            </div>
+        </section>
+        </div>
     </section>
+<!--
+    <section class="contato">
+        <div class="redes">
+            <h2>Contato</h2>
+            <a href="http://">Linkedin</a>
+            <a href="http://">Github</a>
+        </div>
+        <div class="form-ctt">
+            <form action="">
+                <fieldset>
+                    <label for="">Nome:</label>
+                    <input type="text" required>
+                    <label for="">E-mail:</label>
+                    <input type="email" name="" id="">
+                    <label for="">Mensagem:</label>
+                   <textarea name="" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+            </form>
+        </div>
+    </section>-->
+
+
     <footer>
-        Feito com <!-- <i class="material-icons"></i>--> &copy; todos os direitos reservados
-    
+        Feito com<i class="material-icons"> </i> &copy; todos os direitos reservados
     </footer>
 </body>
 </html>
