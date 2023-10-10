@@ -43,8 +43,8 @@ a{
 
 .inicio{
     text-align: center;
-    margin: 60px 0px;
-
+    padding: 60px 0px;
+    background-image: radial-gradient(#6E9887, #F283B6);
 }
 
 .btn{
@@ -94,13 +94,14 @@ img{
     width: 30%;
 }
 aside{
-    margin-right: 10px;
-    margin-left: 6%;
+   /* margin-right: 10px;
+    margin-left: 6%;*/
 }
 
 .exp{
     display: flex;
-    /*justify-content: center;*/
+    width: 90%;
+    margin: auto;
 }
 .titulo-exp{
     font-size: 30px;
@@ -113,40 +114,41 @@ aside{
 .conteudo-exp{
     padding: 25px;
 }
-.sessao-projetos{
-    padding: 10px;
-    margin: 80px 0px;
+  .sessao-projetos{
+  /*padding: 10px;
+    margin: 80px 0px;*/
    
 }
 
 .projetos{
     display: flex;
-    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .text-pro{
     margin-left: 6%;
     font-size: 30px;
     font-weight: 600;
+    color: #F283B6;
 }
-.lado1{
+/*.lado1{
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+}*/
 
-.lado2{
-    width: 50%;
+.lado1, .lado2{
+    width: 86%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+   align-items: center;
 }
 
 .card{
     padding: 20px;
     display: flex;
     width: 75%;
-
+    align-items: center;
 }
 .img-projetos{
     width: 200px;
@@ -164,6 +166,9 @@ aside{
 }
 .btn-pro:hover{
     background-color: #F283B6;
+    box-shadow: 3px 1px 7px 3px #00000059;
+    border: solid 1px #e27aaa;
+    color: white;
 }
 
 .conteudo{
