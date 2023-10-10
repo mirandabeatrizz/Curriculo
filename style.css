@@ -34,17 +34,75 @@ a{
     color: white;
 }
 
-.nav:hover{
+/*.nav:hover{
     background-color: #F283B6;
     padding: 20px;
 
-}
+}*/
+a.nav {
+    font-size: 18px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    padding: 0 0 3px;
+  }
+  
+  a.nav:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: #F283B6;
+    transition: left .9s;
+  }
+  
+  a.nav:hover:after {
+    left: 0;
+  }
+
+  .titulo-exp {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    padding: 0 0 3px;
+  }
+  
+  .titulo-exp:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: #F283B6;
+    transition: left .9s;
+  }
+  
+  .titulo-exp:hover:after {
+    left: 0;
+  }
 
 
 .inicio{
     text-align: center;
-    padding: 60px 0px;
+    padding: 90px 0px;
     background-image: radial-gradient(#6E9887, #F283B6);
+}
+.nome{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.sob{
+    color:#6E9887;
 }
 
 .btn{
@@ -78,6 +136,10 @@ img{
 .div-img{
     margin-right: 20px;
 }
+.fundo{
+    background-color: #6e98876a;
+    padding-top: 30px;
+}
 .formac{
     display: flex;
     justify-content: center;
@@ -106,7 +168,7 @@ aside{
 .titulo-exp{
     font-size: 30px;
     padding-left: 10px;
-    color: #F283B6;
+    color: #fcfcfc;
 }
 .container-exp{
     margin: 0px 10px;
@@ -116,8 +178,7 @@ aside{
     padding: 25px;
 }
   .sessao-projetos{
-  /*padding: 10px;
-    margin: 80px 0px;*/ 
+    padding: 60px 0px;
 }
 
 .projetos{
@@ -187,6 +248,7 @@ aside{
 }
 .img-hab:hover{
     box-shadow: 0px 0px 7px 2px #000000b3;
+   
 }
 
 .hab1, .hab2{
@@ -217,7 +279,6 @@ fieldset{
 }
 footer{
     text-align: center;
-    margin-top: 300px;
     background-color: #6E9887;
     padding: 20px;
 }
