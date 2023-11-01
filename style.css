@@ -90,13 +90,13 @@ a.nav {
     left: 0;
   }
 
-
 .inicio{
     display: flex;
     flex-direction: row-reverse;
     border: solid 4px #fff;
     border-radius: 27px;
     padding: 35px;
+    color: #fff;
 }
 .inicio:hover{
     box-shadow: 20px 17px 0px 0px #000;
@@ -204,7 +204,8 @@ img{
     flex-direction: column;
     align-items: center;
     background-color: #ffffff54;
-    padding: 39px 0;
+    padding: 29px 0;
+    color: #fff;
    /* justify-content: space-between;*/
 }
 
@@ -214,16 +215,22 @@ img{
 .projetos .container-proj .card-proj .texto{
     width: 73%;
 }
-.projetos .container-proj .card-proj .texto a{
+.projetos .container-proj .card-proj a{
     text-decoration: none;
     color: white;
-    width: 91%;
+    /*width: 91%;*/
     background-color: #d16ba5;
     display: flex;
-    padding: 9px;
+    padding: 9px 81px;
     border-radius: 6px;
-    margin-top: 11px;
+    margin-top: 15px;
     justify-content: center;
+}
+.projetos .container-proj .card-proj .btn-link{
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    
 }
 .hab .titulo{
     text-align: center;
